@@ -1,0 +1,65 @@
+* {
+	margin:0px;
+	padding:0px;
+	font-family: 'Bungee Inline', cursive;
+	color:white;
+}
+
+body {
+		display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height:100vh;
+	width:100%;
+	background:#00bfff;
+}
+
+/*Who's that pokemon title*/
+#title {
+	text-align:center;
+	font-size:60px;
+}
+
+/*centering of image*/
+.center {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+ /*button*/
+ button {
+ 	font-family: 'Roboto', sans-serif;
+ 	margin-top:15px;
+ 	background:#ff6666;
+ 	border:black;
+ 	font-size:25px;
+ 	opacity:.85;
+ }
+
+ button:hover {
+ 	opacity:1;
+ }
+
+
+/*Credits to me ofcourse :)*/
+ #credits {
+ 	margin-top:15px;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size:14px;
+ }
+
+ #git {
+ 	font-family: 'Roboto', sans-serif;
+ }
+
+ #gitz {
+ 	font-family: 'Roboto', sans-serif;
+ 	text-decoration:none;
+ }
+
+ #gitz:hover {
+ 	color: #66d9ff;
+ }
