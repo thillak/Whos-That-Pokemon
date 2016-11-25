@@ -1,7 +1,7 @@
  function askuser() {
  	var answer="   "; // answer holder
  	var statement = "Right or wrong"; // input
- 	var answer = prompt("Who's  that pokemon?"); //question
+ 	var answer = prompt("Who's  that pokemon? ( case sensetive)" ); //question
 
 
  	 if (answer == "psyduck") { //lowercaps
@@ -9,7 +9,7 @@
  	 	statement ="It's PSYDUCK... you are correct!";	 	
  	 }	
 
- 	 if (answer == "Psyduck") { //caps
+ 	 else if (answer == "Psyduck") { //caps
  	 	document.getElementById("poke").src = "New.png";
  	 	statement ="It's PSYDUCK... you are correct!";	 	
  	 }	
